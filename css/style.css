@@ -1,11 +1,53 @@
 /*============= RESETS =============*/
 
+/*-- font-family: 'Open Sans', sans-serif; --*/
+
 /*-- iPhone X Remove Gutters --*/
+
+html {
+    padding: env(safe-area-inset);
+}
 
 /*-- Body Font --*/
 
-/*============= NAVIGATION =============*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
 
+/*============= NAVIGATION =============*/
+.navbar-brand img{
+    height: 5rem;
+    padding-top: .8rem;
+}
+
+.navbar {
+padding: .6rem 1rem;
+font-size: .9rem;
+letter-spacing: .1rem;
+
+}
+
+.navbar-nav li {
+    padding-right: .8rem;
+}
+
+.navbar-nav .nav-link {
+    padding-top: .8rem;
+    color: white;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    font-weight: bolder;
+    color: black;
+
+}
+
+.svg-inline--fa.fa-bars {
+    color: white;
+    font-size: 1.6rem;
+ }
 /*-- Remove Button Outline --*/
 
 /*============= LANDING PAGE =============*/
@@ -14,30 +56,21 @@
 
 /*-- Landing Page Content --*/
 
-
 /*============= ABOUT SECTION =============*/
 
 /*-- Scrollspy Offset --*/
 
 /*============= PORTFOLIO SECTION =============*/
 
-
-
 /*============= TESTIMONIALS SECTION =============*/
-
-
 
 /*============= CONTACT SECTION =============*/
 
-
 /*-- Contact Form --*/
-
 
 /*============= MEDIA QUERIES =============*/
 
 /* Medium (md) devices (tablets, 768px and under) */
-
-
 
 /*============ BOOTSTRAP BREAK POINTS:
 
