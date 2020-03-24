@@ -1,0 +1,59 @@
+/*============= RESETS =============*/
+
+/*-- iPhone X Remove Gutters --*/
+
+/*-- Body Font --*/
+
+/*============= NAVIGATION =============*/
+
+/*-- Remove Button Outline --*/
+
+/*============= LANDING PAGE =============*/
+
+/*-- Fixed Landing Page Section --*/
+
+/*-- Landing Page Content --*/
+
+
+/*============= ABOUT SECTION =============*/
+
+/*-- Scrollspy Offset --*/
+
+/*============= PORTFOLIO SECTION =============*/
+
+
+
+/*============= TESTIMONIALS SECTION =============*/
+
+
+
+/*============= CONTACT SECTION =============*/
+
+
+/*-- Contact Form --*/
+
+
+/*============= MEDIA QUERIES =============*/
+
+/* Medium (md) devices (tablets, 768px and under) */
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
