@@ -137,6 +137,10 @@ button:active, button:focus {
     color: #00b3ff;
 }
 
+
+.jumbotron {
+    background-color: white;
+}
 /*============= TESTIMONIALS SECTION =============*/
 
 /*============= CONTACT SECTION =============*/
