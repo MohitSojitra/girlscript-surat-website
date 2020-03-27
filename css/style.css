@@ -109,6 +109,23 @@ button:active, button:focus {
 
 /*============= PORTFOLIO SECTION =============*/
 
+.portfolio-item {
+    overflow: hidden;
+}
+
+.portfolio-item img {
+    transition: transform .4s ease;
+}
+
+.portfolio-item img:hover {
+    cursor: zoom-in;
+    transform: scale(1.1);
+}
+
+.example-image {
+    width: 100%;
+}
+
 /*============= TESTIMONIALS SECTION =============*/
 
 /*============= CONTACT SECTION =============*/
