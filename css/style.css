@@ -32,6 +32,8 @@ body {
 
 .navbar-nav li {
     padding-right: .8rem;
+    font-weight: bold;
+    font-size: medium;
 }
 
 .navbar-nav .nav-link {
