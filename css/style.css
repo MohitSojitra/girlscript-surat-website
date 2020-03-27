@@ -115,12 +115,27 @@ button:active, button:focus {
     overflow: hidden;
 }
 
-
 .portfolio-item img:hover {
     cursor: zoom-in;
     transform: scale(1.1);
 }
 
+.offset:before {
+    content: "";
+    height: 62px;
+    margin-top: -62px;
+    display: block;
+}
+
+.heading {
+    text-transform: uppercase;
+}
+
+
+
+.about1 .svg-inline--fa {
+    color: #00b3ff;
+}
 
 /*============= TESTIMONIALS SECTION =============*/
 
