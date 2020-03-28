@@ -131,16 +131,32 @@ button:active, button:focus {
     text-transform: uppercase;
 }
 
-
-
 .about1 .svg-inline--fa {
     color: #00b3ff;
 }
 
-
 .jumbotron {
     background-color: white;
 }
+
+.svg-inline--fa.fa-linkedin {
+    color: blue;
+    font-size: 2rem;
+}
+
+.svg-inline--fa.fa-twitter {
+    color: black;
+    font-size: 2rem;
+}
+
+.svg-inline--fa.fa-linkedin.active, .svg-inline--fa.fa-linkedin:hover {
+    opacity: 0.7;
+}
+
+.svg-inline--fa.fa-twitter.active, .svg-inline--fa.fa-twitter:hover {
+    opacity: 0.7;
+}
+
 /*============= TESTIMONIALS SECTION =============*/
 
 /*============= CONTACT SECTION =============*/
