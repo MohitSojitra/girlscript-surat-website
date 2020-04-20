@@ -1,26 +1,15 @@
-/*============= RESETS =============*/
-
-/*-- font-family: 'Open Sans', sans-serif; --*/
-
-/*-- iPhone X Remove Gutters --*/
-
+/*======================= Scrolling Effect ======================= */
 html {
-    padding: env(safe-area-inset);
+    scroll-behavior: smooth;
 }
 
-/*-- Body Font --*/
-
+/*======================= Body Font ======================= */
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Muli', sans-serif;
     color: black;
 }
 
-/*============= NAVIGATION =============*/
-
-.navbar-brand img {
-    height: 5rem;
-    padding-top: .8rem;
-}
+/*======================= Navigation Bar ======================= */
 
 .navbar {
     padding: .6rem 1rem;
@@ -30,158 +19,175 @@ body {
     background-color: orangered;
 }
 
-.navbar-nav li {
-    padding-right: .8rem;
-    font-weight: bold;
-    font-size: medium;
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+    margin: 0 auto;
 }
 
-.navbar-nav .nav-link {
-    padding-top: .8rem;
-    color: white;
+.zoom:hover {
+    transform: scale(1.2);
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
-    font-weight: bolder;
-    color: black;
-}
-
-.svg-inline--fa.fa-bars {
-    color: white;
-    font-size: 1.6rem;
-}
-
-/*-- Remove Button Outline --*/
-
-button:active, button:focus {
-    outline: 0;
-}
-
-/*============= LANDING PAGE =============*/
-
-/*-- Fixed Landing Page Section --*/
-
-.carousel-item {
-    background: no-repeat center center scroll;
-    background-size: cover;
-}
-
-.carousel-caption {
-    position: center;
-    bottom: 270px;
-}
+/*======================= Carousel Effect ======================= */
 
 .carousel-caption h1 {
-    font-size: xxx-large;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    color: orangered;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.carousel-caption strong {
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
 }
 
 .carousel-caption p {
-    width: 75%;
-    margin: auto;
-    font-size: xx-large;
-    line-height: 1.9;
+    font-size: 32px;
+}
+
+.carousel-caption {
+    margin-bottom: 180px;
 }
 
 .carousel-caption a {
     background-color: orangered;
-    color: white;
-    border-color: orangered;
 }
 
-.carousel-caption a.active, .carousel-caption a:hover {
+.carousel-caption a:hover {
+    background-color: lightblue;
+}
+
+.carousel-item {
+    margin-top: 80px;
+}
+
+/*======================= About Us ======================= */
+#aboutid {
     background-color: white;
+    margin-bottom: 0px;
+}
+
+#aboutheading {
+    margin-bottom: 40px;
+}
+
+.blacktitle {
     color: orangered;
+    text-align: center;
+    font-size: 40px;
 }
 
-/*-- Landing Page Content --*/
-
-/*============= ABOUT SECTION =============*/
-
-.about {
-    line-height: 4rem;
-}
-
-/*-- Scrollspy Offset --*/
-
-.offset::before {
-    content: "";
-}
-
-/*============= PORTFOLIO SECTION =============*/
-
-.portfolio-item {
-    overflow: hidden;
-}
-
-.portfolio-item img:hover {
-    cursor: zoom-in;
-    transform: scale(1.1);
-}
-
-.offset:before {
-    content: "";
-    height: 62px;
-    margin-top: -62px;
-    display: block;
-}
-
-.heading {
-    text-transform: uppercase;
-}
-
-.about1 .svg-inline--fa {
-    color: #00b3ff;
-}
-
-.jumbotron {
-    background-color: white;
-}
-
-.svg-inline--fa.fa-linkedin {
-    color: blue;
-    font-size: 2rem;
-}
-
-.svg-inline--fa.fa-twitter {
+.orangetitle {
     color: black;
-    font-size: 2rem;
 }
 
-.svg-inline--fa.fa-linkedin.active, .svg-inline--fa.fa-linkedin:hover {
-    opacity: 0.7;
+#para {
+    text-align: justify;
 }
 
-.svg-inline--fa.fa-twitter.active, .svg-inline--fa.fa-twitter:hover {
-    opacity: 0.7;
+u {
+    text-decoration: none;
+    border-bottom: 1px solid rgb(39, 34, 34);
 }
 
-/*============= TESTIMONIALS SECTION =============*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #para {
+        line-height: 1.5rem;
+        font-size: 16px;
 
-/*============= CONTACT SECTION =============*/
+    }
+}
 
-/*-- Contact Form --*/
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #para {
+        line-height: 2rem;
+        font-size: 18px;
 
-/*============= MEDIA QUERIES =============*/
+    }
+}
 
-/* Medium (md) devices (tablets, 768px and under) */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #para {
+        line-height: 2rem;
+        font-size: 20px;
 
-/*============ BOOTSTRAP BREAK POINTS:
+    }
+}
 
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #para {
+        line-height: 3rem;
+        font-size: 22px;
 
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+    }
+}
 
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #para {
+        line-height: 3.5rem;
+        font-size: 24px;
 
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+    }
+}
 
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+/*======================= Our Mission ======================= */
 
-=============*/
+#ourmission {
+    padding-top: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#ourmission h2 {
+    margin-bottom: 50px;
+    font-weight: bolder;
+}
+
+/*======================= Our Team ======================= */
+#ourteamid {
+    background-color: white;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#ourteamheading {
+    margin-bottom: 80px;
+}
+
+.icons {
+    text-align: center;
+}
+
+.fa-linkedin {
+    color: blue;
+}
+
+.fa-twitter {
+    color: black;
+}
+
+/*======================= Contact Us ======================= */
+
+#contactusid {
+    border-radius: 20px;
+}
+
+#submitbtn:hover {
+    background-color: blue;
+    color: white;
+}
+
+.contactheading {
+    margin-bottom: 50px;
+}
+
+.setbackgroundarea {
+    padding-bottom: 0px;
+}
